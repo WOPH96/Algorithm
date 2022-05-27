@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/Algorithm/jongmanbook
+CMAKE_SOURCE_DIR = /home/pi/Algorithm/jongmanbook/CC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/Algorithm/jongmanbook/build
+CMAKE_BINARY_DIR = /home/pi/Algorithm/jongmanbook/CC/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Algorithm/jongmanbook/build/CMakeFiles /home/pi/Algorithm/jongmanbook/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Algorithm/jongmanbook/CC/build/CMakeFiles /home/pi/Algorithm/jongmanbook/CC/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Algorithm/jongmanbook/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Algorithm/jongmanbook/CC/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -142,6 +142,33 @@ program/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/build
 .PHONY : program/fast
 
+foo.o: foo.cc.o
+
+.PHONY : foo.o
+
+# target to build an object file
+foo.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/foo.cc.o
+.PHONY : foo.cc.o
+
+foo.i: foo.cc.i
+
+.PHONY : foo.i
+
+# target to preprocess a source file
+foo.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/foo.cc.i
+.PHONY : foo.cc.i
+
+foo.s: foo.cc.s
+
+.PHONY : foo.s
+
+# target to generate assembly for a file
+foo.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/foo.cc.s
+.PHONY : foo.cc.s
+
 main.o: main.cc.o
 
 .PHONY : main.o
@@ -178,6 +205,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... program"
+	@echo "... foo.o"
+	@echo "... foo.i"
+	@echo "... foo.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

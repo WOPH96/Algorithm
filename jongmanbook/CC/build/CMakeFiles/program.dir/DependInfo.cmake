@@ -4,12 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pi/Algorithm/jongmanbook/main.cc" "/home/pi/Algorithm/jongmanbook/build/CMakeFiles/program.dir/main.cc.o"
+  "/home/pi/Algorithm/jongmanbook/CC/foo.cc" "/home/pi/Algorithm/jongmanbook/CC/build/CMakeFiles/program.dir/foo.cc.o"
+  "/home/pi/Algorithm/jongmanbook/CC/main.cc" "/home/pi/Algorithm/jongmanbook/CC/build/CMakeFiles/program.dir/main.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../includes"
   )
 
 # Targets to which this target links.

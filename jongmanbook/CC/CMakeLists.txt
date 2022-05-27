@@ -8,5 +8,5 @@ project(
   DESCRIPTION "ICANDO"
   LANGUAGES CXX)
 
-add_executable (program main.cc)
-
+add_executable (program main.cc foo.cc)
+target_include_directories(program PUBLIC ${CMAKE_SOURCE_DIR}/includes)

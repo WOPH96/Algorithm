@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/pi/Algorithm/jongmanbook/CC/includes
 
 CXX_FLAGS = 
 
