@@ -1,3 +1,0 @@
-/home/pi/Algorithm/jongmanbook/CC/build/CMakeFiles/rebuild_cache.dir
-/home/pi/Algorithm/jongmanbook/CC/build/CMakeFiles/edit_cache.dir
-/home/pi/Algorithm/jongmanbook/CC/build/CMakeFiles/program.dir

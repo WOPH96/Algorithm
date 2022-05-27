@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/pi/Algorithm/jongmanbook/CC/build",
+  "command": "/usr/bin/c++  -I/home/pi/Algorithm/jongmanbook/CC/includes  -o CMakeFiles/program.dir/main.cc.o -c /home/pi/Algorithm/jongmanbook/CC/main.cc",
+  "file": "/home/pi/Algorithm/jongmanbook/CC/main.cc"
+},
+{
+  "directory": "/home/pi/Algorithm/jongmanbook/CC/build",
+  "command": "/usr/bin/c++  -I/home/pi/Algorithm/jongmanbook/CC/includes  -o CMakeFiles/program.dir/foo.cc.o -c /home/pi/Algorithm/jongmanbook/CC/foo.cc",
+  "file": "/home/pi/Algorithm/jongmanbook/CC/foo.cc"
+}
+]

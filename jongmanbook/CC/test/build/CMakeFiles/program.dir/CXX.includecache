@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../includes/foo.h
+
+/home/pi/Algorithm/jongmanbook/CC/test/foo.cc
+foo.h
+/home/pi/Algorithm/jongmanbook/CC/test/foo.h
+iostream
+-
+
+/home/pi/Algorithm/jongmanbook/CC/test/main.cc
+iostream
+-
+
