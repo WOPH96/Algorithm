@@ -1,0 +1,3 @@
+/home/pi/Algorithm/jongmanbook/CC/MINE/1_Boggle/build/CMakeFiles/rebuild_cache.dir
+/home/pi/Algorithm/jongmanbook/CC/MINE/1_Boggle/build/CMakeFiles/edit_cache.dir
+/home/pi/Algorithm/jongmanbook/CC/MINE/1_Boggle/build/CMakeFiles/program.dir
