@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/pi/Algorithm/jongmanbook/build",
+  "command": "/usr/bin/c++    -o CMakeFiles/program.dir/main.cc.o -c /home/pi/Algorithm/jongmanbook/main.cc",
+  "file": "/home/pi/Algorithm/jongmanbook/main.cc"
+}
+]
