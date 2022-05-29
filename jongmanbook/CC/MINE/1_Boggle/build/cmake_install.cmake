@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/Algorithm/jongmanbook/CC/MINE/1_Boggle
+# Install script for directory: /home/pi/Algorithm/jongmanbook/CC/BOOK/1_Boggle
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/pi/Algorithm/jongmanbook/CC/MINE/1_Boggle/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/pi/Algorithm/jongmanbook/CC/BOOK/1_Boggle/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
