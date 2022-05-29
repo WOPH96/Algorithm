@@ -9,6 +9,8 @@
 /home/pi/Algorithm/jongmanbook/CC/BOOK/1_Boggle/main.cc
 iostream
 -
+ostream
+-
 vector
 -
 
